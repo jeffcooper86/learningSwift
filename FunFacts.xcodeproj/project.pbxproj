@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0B145FD19D2726C00531765 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B145FC19D2726C00531765 /* FactBook.swift */; };
 		FE402A5019CEA280003EC32A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE402A4F19CEA280003EC32A /* AppDelegate.swift */; };
 		FE402A5219CEA280003EC32A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE402A5119CEA280003EC32A /* ViewController.swift */; };
 		FE402A5519CEA280003EC32A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE402A5319CEA280003EC32A /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F0B145FC19D2726C00531765 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 		FE402A4A19CEA280003EC32A /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE402A4E19CEA280003EC32A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE402A4F19CEA280003EC32A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				FE402A4F19CEA280003EC32A /* AppDelegate.swift */,
+				F0B145FC19D2726C00531765 /* FactBook.swift */,
 				FE402A5119CEA280003EC32A /* ViewController.swift */,
 				FE402A5319CEA280003EC32A /* Main.storyboard */,
 				FE402A5619CEA280003EC32A /* Images.xcassets */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0B145FD19D2726C00531765 /* FactBook.swift in Sources */,
 				FE402A5219CEA280003EC32A /* ViewController.swift in Sources */,
 				FE402A5019CEA280003EC32A /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +409,7 @@
 				FE402A6B19CEA280003EC32A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE402A6C19CEA280003EC32A /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				FE402A6E19CEA280003EC32A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
