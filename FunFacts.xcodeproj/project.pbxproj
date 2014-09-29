@@ -14,6 +14,7 @@
 		FE402A5719CEA280003EC32A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE402A5619CEA280003EC32A /* Images.xcassets */; };
 		FE402A5A19CEA280003EC32A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE402A5819CEA280003EC32A /* LaunchScreen.xib */; };
 		FE402A6619CEA280003EC32A /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE402A6519CEA280003EC32A /* FunFactsTests.swift */; };
+		FE7402BA19D9CFE2007C0307 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7402B919D9CFE2007C0307 /* ColorWheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		FE402A5F19CEA280003EC32A /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE402A6419CEA280003EC32A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE402A6519CEA280003EC32A /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
+		FE7402B919D9CFE2007C0307 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
+		FEA68CD819D9D5EC006B3728 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		FE402A4119CEA280003EC32A = {
 			isa = PBXGroup;
 			children = (
+				FEA68CD819D9D5EC006B3728 /* MyPlayground.playground */,
 				FE402A4C19CEA280003EC32A /* FunFacts */,
 				FE402A6219CEA280003EC32A /* FunFactsTests */,
 				FE402A4B19CEA280003EC32A /* Products */,
@@ -80,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				FE402A4F19CEA280003EC32A /* AppDelegate.swift */,
+				FE7402B919D9CFE2007C0307 /* ColorWheel.swift */,
 				F0B145FC19D2726C00531765 /* FactBook.swift */,
 				FE402A5119CEA280003EC32A /* ViewController.swift */,
 				FE402A5319CEA280003EC32A /* Main.storyboard */,
@@ -218,6 +223,7 @@
 				F0B145FD19D2726C00531765 /* FactBook.swift in Sources */,
 				FE402A5219CEA280003EC32A /* ViewController.swift in Sources */,
 				FE402A5019CEA280003EC32A /* AppDelegate.swift in Sources */,
+				FE7402BA19D9CFE2007C0307 /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
